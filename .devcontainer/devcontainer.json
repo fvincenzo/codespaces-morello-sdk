@@ -1,0 +1,8 @@
+{
+	"name": "codespaces-morello-sdk",
+	"dockerComposeFile": "docker-compose.yml",
+    "service": "codespaces-morello-sdk",
+    "workspaceFolder": "/workspace",
+	"postAttachCommand": "source /morello/env/morello-sdk",
+	"customizations": {}
+}

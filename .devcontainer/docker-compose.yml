@@ -1,0 +1,10 @@
+# Docker composer file for Morello Linux
+version: '3.8'
+services:
+  codespaces-morello-sdk:
+    image: "git.morello-project.org:5050/morello/morello-sdk/morello-sdk:latest"
+    container_name: "codespaces-morello-sdk"
+    volumes:
+      - ..:/workspace:cached
+    tty: true
+    restart: unless-stopped
